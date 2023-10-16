@@ -1,0 +1,11 @@
+--- cewl	2023-10-10 14:19:46.257428160 -0700
++++ cewl-rate-limited	2023-10-10 14:18:41.961090846 -0700
+@@ -187,6 +187,8 @@
+ 						#exit if interrupted
+ 					end
+ 
++					sleep 0.2
++
+ 					@teardown.call(a_url) unless @teardown.nil?
+ 					throw :ctrl_c if @interrupt
+ 				end

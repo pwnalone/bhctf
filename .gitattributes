@@ -1,0 +1,4 @@
+*.wav  filter=lfs diff=lfs merge=lfs -text
+*.png  filter=lfs diff=lfs merge=lfs -text
+*.luks filter=lfs diff=lfs merge=lfs -text
+*.ext4 filter=lfs diff=lfs merge=lfs -text
